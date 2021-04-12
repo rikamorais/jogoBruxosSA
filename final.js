@@ -2,7 +2,8 @@ function lutar(){
     var escolha = prompt("Digite 1 para usar a Pedra Petrificante\nDigite 2 para usar a Pedra Desintegratus\nDigite 3 para usar a Pedra da Morte");
 
     if (escolha == 1){
-        alert ("Muito bem! Karsus está petrificado.");
+        alert ("Muito bem!");
+        alert ("Karsus está petrificado.")
         alert ("Escolha outra pedra para continuar.");
         var segundaPedra = prompt("Digite 1 para usar a Pedra Desintegratus\nDigite 2 para usar a Pedra da Morte");
         if (segundaPedra == 1){
@@ -13,12 +14,14 @@ function lutar(){
         else if (segundaPedra == 2){
             alert ("Oh não!");
             alert ("Karsus se recuperou e contra-atacou com o Feitiço da Morte!");
+            alert ("...");
             alert ("Você foi morto!!!");
             window.location.href="gameover.html";
         }
         else {
             alert("Você não escolheu uma pedra!");
             alert("Karsus evocou o Feitiço dos Mortos!");
+            alert ("...");
             alert("Você foi atingido!");
             window.location.href="gameover.html";
         }
@@ -26,7 +29,8 @@ function lutar(){
     }
     else if (escolha == 2){
         alert ("Oh não!");
-        alert ("Karsus esquivou-se de seu ataque e evocou o Feitiço da Vingança!");
+        alert ("Karsus esquivou-se de seu ataque!");
+        alert ("Karsus evocou o Feitiço da Vingança!");
         alert ("...");
         alert ("Ele quase te atingiu!");
         alert ("Escolha outra pedra para atacar.");
@@ -58,7 +62,7 @@ function lutar(){
         window.location.href="gameover.html";
         }
         else {
-            alert ("Você não escolheu nenhuma pedra.");
+            alert ("Você não escolheu uma pedra...");
             alert ("Karsus aproveitou-se da situação e lançou o Feitiço da Morte.");
             alert ("Você foi atingido...");
             alert ("Game over.");
@@ -73,7 +77,8 @@ function lutar(){
         alert ("Escolha outra pedra para continuar.");
         var segundaPedra = prompt ("Digite 1 para usar a Pedra Petrificante\nDigite 2 para usar a Pedra Desintegratus");
         if (segundaPedra == 1){
-            alert ("Muito bem! Karsus está petrificado.");
+            alert ("Muito bem!");
+            alert ("Karsus está petrificado.");
             alert ("Escolha outra pedra para continuar.");
             var terceiraPedra = prompt ("Digite 3 para usar a Pedra Desintegratus.");
             if (terceiraPedra == 3){
@@ -83,7 +88,7 @@ function lutar(){
             }
             else {
                 alert ("Nenhuma pedra foi escolhida!");
-                alert ("Karsus atacou com o Feitiço da Perdição!");
+                alert ("Karsus aproveitou a sua distração e atacou com o Feitiço da Perdição!");
                 alert ("Você foi atingido...");
                 alert ("Game over.");
                 window.location.href="gameover.html";
