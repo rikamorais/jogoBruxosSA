@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneio Bruxos S.A.</title>
+    <!-- GOOGLE FONTE -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=Londrina+Solid:wght@300&family=New+Tegomin&display=swap" rel="stylesheet">
+    <!------------------>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+   
+    <header>
+        <h1>
+            Torneio Bruxos S.A.
+        </h1>
+        
+    
+        
+    </header>
+    <p>
+        Escolha o Bruxo:
+    </p>
+    <main>
+        
+        <div>
+            <a href="./abigail.html"><img class="carta" src="img/abigail.png" alt="Bruxa Abigail Labyrinth"></a>
+        </div>
+        <div>
+            <a href="./electra.html"><img class="carta" src="img/electra.png" alt="Bruxa Electra Soulton"></a>
+        </div>
+        <div>
+            <a href="./zion.html"><img class="carta" src="img/zion.png" alt="Bruxo Zion Jinx"></a>
+        </div>
+        
+    </main>
+
+    
+    
+    <footer>
+        &copy; Todos os direitos reservados.
+    </footer>
+
+<script>
+    var cartaAbigailLabyrinth = {
+  nome: "Abigail Labyrinth",
+  ataque: 70,
+  defesa: 70,
+  magia: 90,
+  caracteristica: "inteligência",
+  objetoMagico: "Capa invisível"
+}
+
+var cartaZionJinx = {
+  nome: "Zion Jinx",
+  ataque: 80,
+  defesa: 60,
+  magia: 80,
+  caracteristica: "emocional",
+  objetoMagico: "Espada Escalibur"
+}
+
+var cartaElectraSoulton = {
+  nome: "Electra Soulton",
+  ataque: 75,
+  defesa: 65,
+  magia: 89,
+  caracteristica: "lógica",
+  objetoMagico: "Sandálias de Hermes"
+}
+
+var cartaMaquina
+var cartaJogador
+
+var cartas = [cartaAbigailLabyrinth, cartaZionJinx, cartaElectraSoulton];
+
+function sortearCarta(){
+  var numeroCartaMaquina = parseInt(Math.random() * cartas.length);
+  cartaMaquina = cartas [numeroCartaMaquina];
+  alert (cartaMaquina);
+}
+
+
+</script>
+
+
+
+
+</body>
+</html>

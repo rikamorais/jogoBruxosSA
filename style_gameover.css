@@ -1,0 +1,179 @@
+body {
+    margin: 30px;
+    background-image: url(img/gameover_background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #CCCCCC;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin: 100px 0 0 0;
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-family: 'Londrina Solid', cursive;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1.5em;
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1.5em;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1.5em;
+}
+
+a:hover {
+    font-size: 1.8em;
+}
+
+/* .p_botao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} */
+
+.chapeu {
+    width: 80%;
+}
+
+.divchapeu {
+    text-align: center;
+}
+
+.principal {
+    text-align: center;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.botao {
+    background: rgb(51, 51, 51);
+    border: 0;
+    border-radius: 15px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+    transition: 400ms;
+    cursor: pointer;
+    margin: 0 30px;
+}
+
+.botao:hover {
+    transform: scale(1.2);
+}
+
+.botao1 {
+    display: block;
+    background: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 15px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1em;
+    color: white;
+    padding: 5px;
+    transition: 400ms;
+    cursor: pointer;
+    margin: 30px 30px;
+}
+
+.botao1:hover {
+    transform: scale(1.2);
+}
+
+.botao2 {
+    display: block;
+    background: rgb(51, 51, 51);
+    border: 0;
+    border-radius: 15px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1em;
+    color: white;
+    padding: 5px;
+    transition: 400ms;
+    cursor: pointer;
+    margin: 30px 30px;
+}
+
+.botao2:hover {
+    transform: scale(1.2);
+}
+
+.carta {
+    width: 50%;
+    margin: 30px;
+    transition: 400ms;
+}
+
+.carta:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 900px){
+    main {
+        display: block;
+    }
+    
+    .principal {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .chapeu {
+        width: 70%;
+    }
+
+    .carta {
+        width: 80%;
+    }
+}
