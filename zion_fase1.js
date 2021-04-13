@@ -11,7 +11,7 @@ function adivinharNumeroSecreto(){
         var chute = prompt("Digite um número entre 0 e 5:");
         if (chute == numeroSecreto){
             alert ("Parabéns! Você acertou!");
-            window.location.href="abigail_2.html";
+            window.location.href="zion_2.html";
             break;
         }
         else if (chute > numeroSecreto) {

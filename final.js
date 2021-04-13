@@ -38,7 +38,6 @@ function lutar(){
         if (segundaPedra == 1){
             alert("Isso!");
             alert("Karsus está petrificado!");
-            alert("Agora, escolha outra pedra para atacar.");
             var terceiraPedra = prompt("Digite 1 para usar a Pedra da Morte!");
             if (terceiraPedra == 1){
                 alert("Isso!");
@@ -79,7 +78,6 @@ function lutar(){
         if (segundaPedra == 1){
             alert ("Muito bem!");
             alert ("Karsus está petrificado.");
-            alert ("Escolha outra pedra para continuar.");
             var terceiraPedra = prompt ("Digite 3 para usar a Pedra Desintegratus.");
             if (terceiraPedra == 3){
                 alert ("Isso!");

@@ -20,8 +20,10 @@ function duelar(){
         window.location.href="gameover.html";
     }
     else {
-        alert("Escolha inválida.");
-        window.location.href="abigail_7.html"
+        alert("Oh não!");
+        alert("Você não escolheu um atributo.")
+        alert("Game over.")
+        window.location.href="gameover.html"
     }
     
 }
