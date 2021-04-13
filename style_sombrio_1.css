@@ -1,22 +1,26 @@
 body {
     margin: 30px;
-    background-image: url(img/gameover_background.png);
+    /* background-image: url(img/sombrio_1.png); */
     background-attachment: fixed;
     background-size: cover;
-    background-color: #CCCCCC;
+    background-color: #000000;
     background-position: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(202, 202, 202);
 }
 
 main {
     display: flex;
     text-align: center;
-    
     justify-content: center;
     align-items: center;
 }
 
 header {
     text-align: center;
+    display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -26,6 +30,7 @@ footer {
     text-align: center;
     font-family: 'New Tegomin', serif;
     font-weight: bold;
+    color: rgb(202, 202, 202);
 }
 
 h1, h2, h3 {
@@ -47,21 +52,21 @@ p {
 }
 
 a:link {
-    color: rgb(0, 0, 0);
+    color: rgb(202, 202, 202);
     font-weight: bold;
     font-family: 'Kiwi Maru', serif;
     font-size: 1.5em;
 }
 
 a:active {
-    color: rgb(0, 0, 0);
+    color: rgb(202, 202, 202);
     font-weight: bold;
     font-family: 'Kiwi Maru', serif;
     font-size: 1.5em;
 }
 
 a:visited {
-    color: rgb(0, 0, 0);
+    color: rgb(202, 202, 202);
     font-weight: bold;
     font-family: 'Kiwi Maru', serif;
     font-size: 1.5em;
@@ -71,33 +76,24 @@ a:hover {
     font-size: 1.7em;
 }
 
-/* .p_botao {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-} */
-
 .chapeu {
     width: 80%;
 }
 
 .divchapeu {
+    
     text-align: center;
 }
 
 .principal {
-    /* display: flex;
-    flex-direction: column; */
     text-align: center;
     width: 50%;
+    
     vertical-align: middle;
 }
 
 .botao {
-    display: block;
-    background: rgb(51, 51, 51);
+    background: rgb(0, 0, 0);
     border: 0;
     border-radius: 15px;
     font-family: 'Kiwi Maru', serif;
@@ -106,10 +102,7 @@ a:hover {
     padding: 10px;
     transition: 400ms;
     cursor: pointer;
-    margin: 30px;
-    margin-left: auto; 
-    margin-right: auto
-
+    margin: 0 30px;
 }
 
 .botao:hover {
@@ -117,17 +110,16 @@ a:hover {
 }
 
 .botao1 {
-    display: block;
-    background: rgb(0, 0, 0);
+    background: black;
     border: 0;
     border-radius: 15px;
     font-family: 'Kiwi Maru', serif;
-    font-size: 1em;
+    font-size: 1.5em;
     color: white;
-    padding: 5px;
+    padding: 10px;
     transition: 400ms;
     cursor: pointer;
-    margin: 30px 30px;
+    margin: 0 30px;
 }
 
 .botao1:hover {
@@ -135,17 +127,16 @@ a:hover {
 }
 
 .botao2 {
-    display: block;
-    background: rgb(51, 51, 51);
+    background: rgb(202, 202, 202);
     border: 0;
     border-radius: 15px;
     font-family: 'Kiwi Maru', serif;
-    font-size: 1em;
-    color: white;
-    padding: 5px;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    padding: 10px;
     transition: 400ms;
     cursor: pointer;
-    margin: 30px 30px;
+    margin: 0 30px;
 }
 
 .botao2:hover {
@@ -158,9 +149,20 @@ a:hover {
     transition: 400ms;
 }
 
+.carta1 {
+    width: 50%;
+    margin: 30px;
+}
+
 .carta:hover{
     transform: scale(1.2);
 }
+
+.duelo {
+    font-size: 100pt;
+}
+
+/* ---------- RESPONSIVIDADE --------- */
 
 @media (max-width: 900px){
     main {
@@ -182,4 +184,10 @@ a:hover {
     .carta {
         width: 80%;
     }
+
+    .carta1 {
+        width: 80%;
+    }
+
+
 }

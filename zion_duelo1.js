@@ -5,7 +5,7 @@ function duelar(){
         alert ("Oh não!");
         alert ("Brianna tem um Ataque supeior ao seu!");
         alert ("Você perdeu o duelo!!!");
-        window.location ="zion_5.html";
+        window.location ="gameover.html";
     }
     else if (escolha == 2){
         alert ("Oh não!");
