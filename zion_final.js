@@ -13,7 +13,8 @@ function lutar(){
         }
         else if (segundaPedra == 2){
             alert ("Oh não!");
-            alert ("Karsus se esquivou e contra-atacou com o Feitiço da Morte!");
+            alert ("Karsus se recuperou.")
+            alert ("Ele se esquivou e contra-atacou com o Feitiço da Morte!");
             alert ("...");
             alert ("Você foi morto!!!");
             window.location.href="gameover.html";
@@ -50,27 +51,24 @@ function lutar(){
                 alert ("Você não escolheu uma pedra.");
                 alert ("Karsus se aproveitou de sua distração e lançou o Feitiço Fatal!");
                 alert ("Você foi atingido...");
-                alert ("Game over.");
                 window.location.href="gameover.html";
             }
         }
         else if(segundaPedra == 2 ){
             alert ("Oh não! Karsus conseguiu se defender e evocou o Feitiço Fatal!");
             alert ("Você foi atingido...");
-            alert ("Game over.")
         window.location.href="gameover.html";
         }
         else {
             alert ("Você não escolheu uma pedra...");
             alert ("Karsus aproveitou-se da situação e lançou o Feitiço da Morte.");
             alert ("Você foi atingido...");
-            alert ("Game over.");
             window.location.href="gameover.html";
         }
     }
     else if (escolha == 3){
         alert ("Oh não!");
-        alert ("Karsos escapou!");
+        alert ("Karsos se esquivou!");
         alert ("Karsus contra-atacou com o Feitiço do Retorno!!!");
         alert ("Você se esquivou e agora irá contra-atacar!");
         alert ("Escolha outra pedra para continuar.");
@@ -88,7 +86,6 @@ function lutar(){
                 alert ("Nenhuma pedra foi escolhida!");
                 alert ("Karsus aproveitou a sua distração e atacou com o Feitiço da Perdição!");
                 alert ("Você foi atingido...");
-                alert ("Game over.");
                 window.location.href="gameover.html";
             }
         }
@@ -96,7 +93,6 @@ function lutar(){
             alert ("Oh não!");
             alert ("Karsus conseguiu escapar e evocou o Feitiço da Vingança!");
             alert ("Você foi atingido...");
-            alert ("Game over.");
             window.location.href="gameover.html";
         }
 
